@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: "Montserat", "Calibri";
+    font-weight: 400;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv {
+    display: flex;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    border-radius: 10px;
+    max-width: 650px;
+}
+
+.header {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+    width: 260px;
+    height: 116.02px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 110px;
+    height: 116.02px; 
+    padding-left: 17px;
+    padding-bottom: 30px;
+}
+
+.my-logo {
+    border-radius: 120px;
+}
+
+.contacts {
+    justify-content: flex-start;
+    font-family: "Montserrat";
+    padding-left: 5px;
+    width: 260px;
+    height: 133px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;    
+}
+
+.about {
+    justify-content: flex-start;
+    font-family: "Montserrat";
+    padding-left: 2px;
+    width: 260px;
+    height: 88px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;    
+}
+
+.skills {
+    justify-content: flex-start;
+    font-family: "Montserrat";
+    padding-left: 2px;
+    width: 260px;
+    height: 133px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;     
+}
+
+.info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title-name {
+    background-color: #545454;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 3px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.title-line {
+    height: 1px;
+    width: 100%;
+    border: 1px solid;
+    color: #545454;
+}
+
+.education {
+    font-family: "Calibri";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #343434;
+    
+}
+
+.name-education {
+    text-align: center;
+}
+
+.code {
+    font-family: "Calibri";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #343434;
+}
+
+.func {
+    font-family: "Calibri";
+    font-size: 13px;
+}
+
+.lang {
+    font-family: "Calibri";
+    font-size: 13px;
+    color: #343434;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Calibri";
+    font-size: 10px;
+    width: 650px;  
+}
+
+.rss-logo {
+    width: 110px;
+}
